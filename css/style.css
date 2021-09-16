@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15pt;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+body {
+  background-color: #d5d2d0;
+}
+
+.container {
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-block {
+  display: flex;
+  width: 100%;
+}
+
+.side-panel {
+  width: 33%;
+  color: #f2f2f2;
+  background: #0e3544;
+}
+
+.avatar {
+  display: block;
+  margin: 15% auto;
+  width: 70%;
+  border-radius: 100%;
+}
+
+.aside-section {
+  margin-bottom: 15%;
+  font-size: 13pt;
+}
+
+.aside-section ul li {
+  font-size: 11pt;
+}
+
+.aside-header {
+  margin-left: 15%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.side-panel li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+}
+
+.contact-icon {
+  margin-right: 5%;
+}
+
+.hard-skills li {
+  list-style-type: none;
+}
+
+.meter {
+  width: 50%;
+  height: 10px;
+  margin-top: 3%;
+  background-color: #a0a0a0;
+}
+
+.meter span {
+  display: block;
+  width: 50%;
+  height: 100%;
+  background-color: #f2f2f2;
+
+}
+
+.meter span.php {
+  width: 70%;
+}
+
+.meter span.css {
+  width: 80%;
+}
+
+.main-content {
+  width: 67%;
+  color: #464646;
+  background-color: #fff;
+}
+
+header {
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-bottom: 15%;
+}
+
+.main-section {
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+}
+
+.main-header {
+  padding-bottom: 3%;
+  border-bottom: 1px solid;
+  margin-bottom: 3%;
+}
+
+.icon {
+  margin-right: 5%;
+  font-size: 1.5em;
+}
+
+.main-block li {
+  list-style-position: inside;
+  margin-top: 3%;
+}
+
+.main-list li {
+  list-style-type: none;
+}
+
+.code-example {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  display: flex;
+  padding-left: 4%;
+  padding-right: 7%;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(82, 82, 82, 1) 0%, rgba(57, 57, 57, 1) 100%);
+  color: #fff;
+}
+
+.my-github-link {
+  text-decoration: none;
+}
+
+.my-github-link:visited {
+  color: #fff;
+}
