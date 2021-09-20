@@ -34,13 +34,11 @@ body {
     width: auto;
     display: flex;
   }
-
   .avatar {
     margin: 10%;
     width: 20%;
     height: 20%;
   }
-
   .main-content {
     width: auto;
   }
