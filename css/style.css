@@ -21,6 +21,36 @@ h3 {
 body {
   background-color: #d5d2d0;
 }
+@media screen and (max-width: 915px) {
+  .main-block {
+    flex-direction: column;
+  }
+
+  .side-panel {
+    width: 100%;
+  }
+
+  aside {
+    width: auto;
+    display: flex;
+  }
+
+  .avatar {
+    margin: 10%;
+    width: 20%;
+    height: 20%;
+  }
+
+  .main-content {
+    width: auto;
+  }
+
+  .aside-section {
+    margin-bottom: 0;
+    margin-top: 10%;
+    padding: 0 2em;
+  }
+}
 
 .container {
   width: 1200px;
@@ -59,7 +89,7 @@ body {
 .aside-section ul li a {
   color: white;
   font-size: 1em;
-}
+} 
 
 
 .aside-header {
@@ -169,4 +199,27 @@ header {
 
 .my-github-link:visited {
   color: #fff;
+}
+
+.code-example{
+  width:5rem;
+  height:5rem;
+  padding:0.1rem;
+  border: 1px solid #0e3544;
+}
+.work-row{
+  display: flex;
+  font-size: 0.7 em;
+  margin-top: 2rem;
+}
+.work-row article{
+  padding-left: 1rem;
+  font-size: 0.7 rem;
+}
+.work-row li{
+  list-style: none;
+}
+.work-link {
+  display: flex;
+  justify-content: flex-end;
 }
