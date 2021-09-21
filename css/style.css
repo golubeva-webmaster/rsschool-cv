@@ -21,34 +21,6 @@ h3 {
 body {
   background-color: #d5d2d0;
 }
-@media screen and (max-width: 915px) {
-  .main-block {
-    flex-direction: column;
-  }
-
-  .side-panel {
-    width: 100%;
-  }
-
-  aside {
-    width: auto;
-    display: flex;
-  }
-  .avatar {
-    margin: 10%;
-    width: 20%;
-    height: 20%;
-  }
-  .main-content {
-    width: auto;
-  }
-
-  .aside-section {
-    margin-bottom: 0;
-    margin-top: 10%;
-    padding: 0 2em;
-  }
-}
 
 .container {
   width: 1200px;
@@ -220,4 +192,65 @@ header {
 .work-link {
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 1199px) {
+  .container{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  *{
+    font-size: 11pt;
+  }
+  .container{
+    width:100%;
+    margin-top: 0;
+  }
+  .main-block {
+    flex-direction: column;
+  }
+
+  .side-panel {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .side-panel li {
+    margin-left: 10%;
+  }
+
+  aside {
+    width: auto;
+    display: flex;
+  }
+
+  .avatar {
+    margin: 10% 3%;
+    width: 20%;
+    height: 20%;
+  }
+
+  .main-content {
+    width: auto;
+  }
+
+  .aside-section {
+    margin-bottom: 0;
+    margin-top: 10%;
+    padding: 0 0 0 1em;
+  }
+  .aside-header {
+    margin-left: 10%;
+  }
+  iframe{
+    width: 310px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  aside {
+    flex-direction: row;
+  }
 }
