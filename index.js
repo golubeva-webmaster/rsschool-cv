@@ -33,3 +33,15 @@ languageElements.forEach((item)=>{
 changeLangForDataLang()
 if(lang === "ru")
   document.querySelector(".select-ru").click()
+  
+
+// --- подмена аттрибута title у картинок, аттрибутом data-en-lang/data-ru-lang согласно текущего языка
+
+document.querySelectorAll(".multiLangTitle").forEach((item) => {
+  item.addEventListener("mouseover", (e) => {
+    e.target.setAttribute(
+      "title",
+      e.target.getAttribute("data-" + lang + "-title")
+    );
+  });
+});  
